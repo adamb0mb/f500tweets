@@ -10,10 +10,10 @@ var t = new twitter({
 
 t.stream(
 	 'statuses/filter',
-	 { track: ['Microsoft'] },
+	 { track: ['Google'] },
 	 function(stream) {
 	     stream.on('data', function(tweet) {
-		     console.log(tweet.text);
+		     console.log('id: ' +tweet.id + 'created at: ' + tweet.created_at + 'user name: ' + tweet.user.name + 'text: ' + tweet.text);
 		 });
 	 }
 );
