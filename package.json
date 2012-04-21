@@ -12,7 +12,8 @@
   },
   "dependencies": {
       "express": "latest",
-      "mongoose": "latest"},
+      "mongoose": "latest",
+      "jade": "latest"},
   "devDependencies": {},
   "optionalDependencies": {}
 }
