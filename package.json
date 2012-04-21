@@ -1,0 +1,18 @@
+{
+  "author": "Adam Phillabaum <adam@phillabaum.us>",
+  "name": "f500tweets",
+  "description": "Find and aggregates tweets about the Fortune 500",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/adamb0mb/f500tweets.git"
+  },
+  "engines": {
+    "node": "~0.6.8"
+  },
+  "dependencies": {
+      "express": "latest",
+      "mongoose": "latest"},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
