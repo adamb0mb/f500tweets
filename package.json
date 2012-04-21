@@ -13,7 +13,9 @@
   "dependencies": {
       "express": "latest",
       "mongoose": "latest",
-      "jade": "latest"},
-  "devDependencies": {},
+      "jade": "latest",
+      "ntwitter": "latest"},
+  "devDependencies": {
+      "nodemon": "latest"},
   "optionalDependencies": {}
 }
